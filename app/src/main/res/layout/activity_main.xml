@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TitleViews"
+            android:text="@string/title" />
+
+        <View style="@style/LineViews" />
+
+        <ImageView
+            style="@style/Images"
+            android:src="@drawable/vikings" />
+
+        <View style="@style/LineViews" />
+
+        <LinearLayout style="@style/LinearLayoutViews">
+
+
+            <TextView
+                style="@style/questions"
+                android:text="@string/question1" />
+
+            <ImageView
+                style="@style/Images"
+                android:src="@drawable/yggdrasill" />
+
+            <RadioGroup style="@style/RadioGroups">
+
+                <RadioButton
+                    android:id="@+id/answer1_1"
+                    style="@style/RadioButtons"
+                    android:text="@string/answer1_1" />
+
+                <RadioButton
+                    android:id="@+id/answer1_2"
+                    style="@style/RadioButtons"
+                    android:text="@string/answer1_2" />
+
+                <RadioButton
+                    android:id="@+id/answer1_3"
+                    style="@style/RadioButtons"
+                    android:text="@string/answer1_3" />
+
+                <RadioButton
+                    android:id="@+id/answer1_4"
+                    style="@style/RadioButtons"
+                    android:text="@string/answer1_4" />
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LinearLayoutViews">
+
+            <TextView
+                style="@style/questions"
+                android:text="@string/question2" />
+
+            <ImageView
+                style="@style/Images"
+                android:src="@drawable/odin" />
+
+            <EditText
+                android:id="@+id/answer2"
+                style="@style/EditText"
+                android:hint="@string/hint" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LinearLayoutViews">
+
+            <TextView
+                style="@style/questions"
+                android:text="@string/question3" />
+
+            <ImageView
+                style="@style/Images"
+                android:src="@drawable/beasts" />
+
+            <LinearLayout
+                style="@style/CheckboxLinearLayoutViews"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/answer3_1"
+                    style="@style/Checkbox"
+                    android:text="@string/answer3_1" />
+
+                <CheckBox
+                    android:id="@+id/answer3_2"
+                    style="@style/Checkbox"
+                    android:text="@string/answer3_2" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/CheckboxLinearLayoutViews"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/answer3_3"
+                    style="@style/Checkbox"
+                    android:text="@string/answer3_3" />
+
+                <CheckBox
+                    android:id="@+id/answer3_4"
+                    style="@style/Checkbox"
+                    android:text="@string/answer3_4" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/LinearLayoutViews">
+
+            <TextView
+                style="@style/questions"
+                android:text="@string/question4" />
+
+            <ImageView
+                style="@style/Images"
+                android:src="@drawable/walhalla" />
+
+            <RadioGroup style="@style/RadioGroups">
+
+                <RadioButton
+                    android:id="@+id/answer4_1"
+                    style="@style/RadioButtons"
+                    android:text="@string/answer4_1" />
+
+                <RadioButton
+                    android:id="@+id/answer4_2"
+                    style="@style/RadioButtons"
+                    android:text="@string/answer4_2" />
+
+                <RadioButton
+                    android:id="@+id/answer4_3"
+                    style="@style/RadioButtons"
+                    android:text="@string/answer4_3" />
+
+                <RadioButton
+                    android:id="@+id/answer4_4"
+                    style="@style/RadioButtons"
+                    android:text="@string/answer4_4" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout style="@style/LinearLayoutViews">
+
+            <TextView
+                style="@style/questions"
+                android:text="@string/question5" />
+
+            <ImageView
+                style="@style/Images"
+                android:src="@drawable/valkyrs" />
+
+            <EditText
+                android:id="@+id/answer5"
+                style="@style/EditText"
+                android:hint="@string/hint" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LinearLayoutViews">
+
+            <TextView
+                style="@style/questions"
+                android:text="@string/question6" />
+
+            <ImageView
+                style="@style/Images"
+                android:src="@drawable/thor" />
+
+            <LinearLayout
+                style="@style/CheckboxLinearLayoutViews"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/answer6_1"
+                    style="@style/Checkbox"
+                    android:text="@string/answer6_1" />
+
+                <CheckBox
+                    android:id="@+id/answer6_2"
+                    style="@style/Checkbox"
+                    android:text="@string/answer6_2" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/CheckboxLinearLayoutViews"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/answer6_3"
+                    style="@style/Checkbox"
+                    android:text="@string/answer6_3" />
+
+                <CheckBox
+                    android:id="@+id/answer6_4"
+                    style="@style/Checkbox"
+                    android:text="@string/answer6_4" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/LinearLayoutViews">
+
+            <View style="@style/LineViews"></View>
+
+            <Button
+                style="@style/Buttons"
+                android:onClick="submit"
+                android:text="@string/submit" />
+
+            <View style="@style/LineViews"></View>
+
+            <TextView
+                android:id="@+id/results"
+                style="@style/questions"
+                android:text="@string/results" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

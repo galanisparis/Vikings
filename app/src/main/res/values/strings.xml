@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Quizapp</string>
+    <string name="title">Vikings</string>
+    <string name="question1">How many worlds are connected by the immense holy tree Yggdrasill?</string>
+    <string name="question2">Who is the mighty ruller of Valhalla?</string>
+    <string name="question3">The monstrous ..(1).. Fenrir who is is foretold to kill the god Odin during the events of Ragnarök, is the son of..(2)..(choose one for each gap)</string>
+    <string name="question4">The gods inhabit the heavenly realm of...</string>
+    <string name="question5">What is the name of the female figures who bring their chosen to the afterlife hall of the slain, Valhalla?</string>
+    <string name="question6">Mjölnir is the famous hammer of Thor, a major god associated with...(choose two)</string>
+    <string name="answer1_1">Nine worlds</string>
+    <string name="answer1_2">Six worlds</string>
+    <string name="answer1_3">Three worlds</string>
+    <string name="answer1_4">Two worlds</string>
+    <string name="answer3_1">Wolf (1)</string>
+    <string name="answer3_2">Serpent (1)</string>
+    <string name="answer3_3">Loki (2)</string>
+    <string name="answer3_4">Heimdallr (2)</string>
+    <string name="answer4_1">Midgard</string>
+    <string name="answer4_2">Northland</string>
+    <string name="answer4_3">Asgard</string>
+    <string name="answer4_4">Valhalla</string>
+    <string name="answer6_1">Lightning</string>
+    <string name="answer6_2">Holy Light</string>
+    <string name="answer6_3">Earthquakes</string>
+    <string name="answer6_4">Strength</string>
+    <string name="hint">Enter your answer here</string>
+    <string name="submit">submit</string>
+    <string name="results">Results:</string>
+</resources>
